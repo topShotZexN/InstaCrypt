@@ -9,5 +9,7 @@ The malware first generates a random AES key and starts the encryption process. 
 
 I cannot guarantee reliability or security of the malware application. I am open to criticism, if anyone has any improvements for the cryptographic technique or general implementation, feel free to submit a pull.
 
-Decrypter will soon be added along with various descriptions.
-There will be no User Interface for Decryptor atleast for now
+
+Decryptor is just a couple of java files. In order to decrypt your files, run Main.java in main package. The best way is to run it using command line interface. It will take two arguments, first one is path to AES key file and second one is directory which contains the files. Both the path should be passed to main method as string i.e. in double quotes.
+
+There is no User Interface for Decryptor atleast for now.
