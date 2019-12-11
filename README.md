@@ -7,5 +7,5 @@ Although the malware application uses simple logic, it seriously encrypts all yo
 
 The malware generates a random AES key and the encryption process begins. Only after the encryption process is completed, the encrypted AES key file is generated and stored. So, if the process is terminated, intentionally or accidentally, the key file will not be generated and cannot be reproduced again. In this case the encrypted files cannot be decrypted, until AES is broken. The encryption process usually takes some time, and once the entire process is completed, the victim is informed.
 
-Decryptor will soon be added along with various descriptions
+Decrypter will soon be added along with various descriptions
 There will be no User Interface for Decryptor atleast for now
