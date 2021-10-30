@@ -125,8 +125,7 @@ public class Crypto {
 					return false;
 				}
 			}
-
-			// file checks
+			
 			if (!file.exists() | !file.canRead() | !file.canWrite() | (file.length() > 20000000)) {
 				return false;
 			}
